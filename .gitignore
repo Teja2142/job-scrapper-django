@@ -1,0 +1,18 @@
+# secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# logs and database exports
+logs/
+*.log
+*.csv
+!data/**/*.csv
+
+
+# local test project
+testsite/
+manage.py

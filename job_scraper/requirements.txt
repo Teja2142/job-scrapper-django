@@ -1,0 +1,7 @@
+# job_scraper (Django app): Python 3.9+, Django 4.2+, PostgreSQL
+Django>=4.2
+psycopg2-binary>=2.9   # or psycopg[binary]>=3.1; any driver Django's PostgreSQL backend supports
+apify-client>=1.7      # 1.x, 2.x and 3.x all work
+openpyxl>=3.1          # government Excel files (LCA, PERM, USCIS Hub, E-Verify .xlsx)
+python-dateutil>=2.8   # non-ISO posting dates ("Sep 20, 2026", "9/20/2026")
+python-dotenv>=1.0     # loads .env (optional if the project sets environment variables itself)
